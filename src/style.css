@@ -1,4 +1,4 @@
-* {
+git * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -270,6 +270,11 @@
     background: #f2f2f2;
     color: black;
   }
+  .carbon img{
+    position: relative;
+  }
+
+
 
   .cocos {
     width: 90%;
@@ -286,7 +291,9 @@
     background: #f2f2f2;
     display: flex;
     justify-content: center;
+    position: absolute;
     flex-direction: column;
+    margin-top: 32px;
   }
 
   .cocos .content {
